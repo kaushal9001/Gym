@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Londrina+Outline&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+}
+.nav-container {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  /* padding-inline: 40px; */
+  margin-inline: 40px;
+  margin-top: 10px;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.nav-left {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  /* margin-top: 10px; */
+  font-family: "Kanit", sans-serif;
+  /* border: 2px solid red; */
+}
+.nav-center {
+  width: 20%;
+  height: 100%;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  /* border: 2px solid red; */
+}
+.nav-center-text {
+  text-decoration: none;
+  color: black;
+}
+.nav-right {
+  width: 5%;
+  height: 100%;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: 13px;
+  /* border: 2px solid red; */
+}
+.nav-right-text {
+  text-decoration: none;
+  color: black;
+}
+.hero-container {
+  width: 100%;
+  /* height: 90vh; */
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  /* border: 2px solid red; */
+}
+.hero-top-container {
+  width: 100%;
+  height: 50vh;
+  padding-inline: 40px;
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  /* border: 2px solid red; */
+}
+.hero-top-side-img-container {
+  flex: 1;
+  height: 32.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  /* border: 2px solid red; */
+}
+.hero-top-side-top-img {
+  width: 100%;
+  height: 19vh;
+  border-radius: 10px;
+  /* border: 2px solid red; */
+}
+.shose-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+.hero-top-side-bottom-img {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+.hero-top-side-bottom-four-img {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  /* border: 2px solid red; */
+}
+.four-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid white;
+  position: absolute;
+}
+.four-img:nth-child(2) {
+  position: absolute;
+  left: 15%;
+  z-index: 1;
+}
+.four-img:nth-child(3) {
+  position: absolute;
+  left: 30%;
+  z-index: 1;
+}
+.four-img:nth-child(4) {
+  position: absolute;
+  left: 45%;
+  z-index: 1;
+}
+.hero-top-side-bottom-container {
+  display: flex;
+  /* border: 2px solid red; */
+}
+.hero-top-side-bottom-list {
+  font-size: 100%;
+  /* border: 2px solid red; */
+}
+.hero-heading-container {
+  /* text-align: center; */
+  flex: 2;
+  height: 100%;
+  /* border: 2px solid red; */
+}
+.hero-heading {
+  width: 100%;
+  height: 100%;
+  font-size: 8.5rem;
+  padding: 20px;
+  line-height: 95px;
+  /* font-weight: 800; */
+  font-family: "Kanit", sans-serif;
+  /* border: 2px solid red; */
+}
+.hero-top-right-container {
+  /* width: 20%; */
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: -20px;
+  /* border: 2px solid red; */
+}
+.hero-top-right-para {
+  width: 100%;
+  height: 15vh;
+  padding: 20px;
+  font-size: 80.7%;
+  /* border: 2px solid red; */
+}
+.arow-container {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid grey;
+  border-right: 2px solid grey;
+}
+.arrow {
+  font-size: 40px;
+  font-weight: 900;
+}
+.hero-image-container {
+  width: 100%;
+  height: 90vh;
+  /* border: 2px solid red; */
+}
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-bottom-container {
+  width: 100%;
+  height: 10vh;
+  margin-top: -20px;
+  display: flex;
+  /* justify-content: space-between; */
+  /* border: 2px solid red; */
+  align-items: center;
+  font-size: 3.9rem;
+}
+.down-arrow {
+  font-size: 45px;
+  font-weight: 900;
+  color: orangered;
+  margin-top: 10px;
+}
+.font {
+  font-family: "Londrina Outline", sans-serif;
+}
+@media screen and (max-width: 1200px) {
+  .nav-center,
+  .ed {
+    display: none;
+  }
+  /* .nav-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-right-icon {
+    display: flex;
+    justify-content: end;
+  } */
+  .nav-right {
+    width: fit-content;
+  }
+  .hero-top-container {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+  }
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-top-side-img-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .hero-top-side-top-img {
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid red; */
+  }
+  .hero-bottom-container {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .hero-heading {
+    width: 800px;
+    height: 60vh;
+    font-size: 10rem;
+    line-height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+  }
+  .hero-image-container {
+    margin-top: 320px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .hero-heading {
+    width: 500px;
+    height: ;
+    /* border: 1px solid red; */
+  }
+}
+@media screen and (max-width: 500px) {
+  .hero-heading {
+    width: 350px;
+    font-size: 7rem;
+    line-height: 100px;
+    /* border: 1px solid red; */
+  }
+}
+@media screen and (max-width: 400px) {
+  .hero-heading {
+    width: 300px;
+    font-size: 5rem;
+    line-height: 80px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .hero-top-side-img-container {
+    display: none;
+  }
+}
